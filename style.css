@@ -1,0 +1,128 @@
+/*
+Theme Name: Test Theme
+Author: Aditya Jain
+*/
+
+@media only screen and (max-width: 992px){
+    .navbar-nav.ml-auto{
+        background: rgba(0, 0, 0, 0.3);
+        padding: 1px 5px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        line-height: 20px!important;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        line-height: 20px!important;
+    }
+    #search, #bars{
+        display: none;
+        visibility: hidden;
+    }
+
+    .carousel-caption h3{
+        font-size: 35px!important; 
+    }
+
+    .carousel-caption h5{
+         font-size: 30px!important; 
+    }
+    .carousel-caption p{
+        font-size: 15px!important; 
+   }
+}
+@media only screen and (max-width: 1200px){
+    .carousel-caption h3{
+        font-size: 33px!important; 
+    }
+
+    .carousel-caption h5{
+         font-size: 28px!important; 
+    }
+    .carousel-caption p{
+        font-size: 13px!important; 
+   }
+}
+
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center scroll;
+    -webkit-background-origin: cover;
+    background-size: cover;
+}
+
+.carousel-caption{
+    bottom: 220px;
+}
+
+.carousel-caption h5{
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.carousel-caption h3{
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Great Vibes', cursive;
+}
+
+.carousel-caption p{
+    font-size: 17px;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+
+#reserve{
+    border: 2px solid #ffffff;    
+}
+
+#search, #bars{
+    color: #FFFFFF!important;
+}
+.navbar-nav{
+    padding: 30px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+} 
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 2.5px white solid;
+    border-radius: 2px;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+.navbar-light .navbar-toggler{
+    color: white;
+    border-color: #FFFFFF!important;
+}
+.navbar-light .navbar-toggler-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important; 
+} 
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: whitesmoke;
+
+}
